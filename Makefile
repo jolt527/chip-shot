@@ -1,5 +1,5 @@
 LIBS = -lSDL2
-CFLAGS = -Wall
+CFLAGS = -Wall -DDEBUG
 
 SRC = $(wildcard *.cpp)
 EXECUTABLE = chip-shot
